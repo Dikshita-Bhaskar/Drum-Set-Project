@@ -1,0 +1,75 @@
+body {
+  background-color: #0bbdee;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: fantasy;
+  color: rgb(149, 8, 8);
+  text-shadow: 3px 0 #ffffff;
+  font-size: 50px;
+}
+
+.drum-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 70vh;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(14, 92, 151);
+  text-shadow: 2px 0 #ffffff;
+  border: none;
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+}
+
+.w {
+  background-image: url("./assets/images/crash.png");
+}
+
+.a {
+  background-image: url("./assets/images/kick.png");
+}
+
+.s {
+  background-image: url("./assets/images/snare.png");
+}
+
+.d {
+  background-image: url("./assets/images/tom1.png");
+}
+
+.j {
+  background-image: url("./assets/images/tom2.png");
+}
+
+.k {
+  background-image: url("./assets/images/tom3.png");
+}
+
+.l {
+  background-image: url("./assets/images/tom4.png");
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  color: #7f2525;
+  text-shadow: 1px 0 #ffffff;
+}
